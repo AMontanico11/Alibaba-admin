@@ -5,14 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="stylesheet" href="css/ConfiGeneral.css">
+    <link rel="stylesheet" href="./css/ConfiGeneral.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/admin.css">
     
-    <title>Document</title>
+    <title>Registro de usuario</title>
 </head>
 <body>
     
+    <section class="section-login activar-flex" id="section-login">
+        <div class="section-login_banner">
+            <img src="https://cdni.rt.com/actualidad/public_images/2019.03/article/5c89ed6008f3d9481b8b4568.JPG" alt="">
+        </div>
+
+        <!-- PARTE DE FORMULARIO MECANICA -->
+        <form class="form-login" action="" id="login" autocomplete="off">
+            
+            <h2>Formulario</h2>
+            
+            <label class="label-username" for="">
+                Username
+                <input type="texto" id="username">
+            </label>
+            
+            <label for="">
+                Password
+                <input type="password" id="password">
+            </label>
+            
+            <button class="boton">Entrar</button>
+        </form>
+
+    </section>
+    
+    <!------------------------------------------------
+        Sección de administrador
+         - Menú
+            - Home
+    ------------------------------------------------->
+    <section class="section-administrador" id="section-administrador">
+        <nav>Menú</nav>
+    </section>
+
 
 
     <script src="./js/Main.js"></script>
+
 </body>
 </html>
